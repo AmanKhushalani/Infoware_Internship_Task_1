@@ -1,6 +1,6 @@
 # This is an internship task, given by Infoware Company
-## Task2
-### Weather Predictor
+## Task1
+### E-commerce website UI
 
 # Getting Started with Create React App
 
