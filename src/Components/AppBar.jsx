@@ -191,7 +191,7 @@ export default function PrimarySearchAppBar() {
                             onKeyDown={(e) => {
                                 if(e.key == "Enter" && searchValue.trim()!="")
                                 {
-                                    navigate('/products/'+searchValue);
+                                    navigate('/Infoware_Internship_Task_1/products/'+searchValue);
                                 }
                             }}
                         />

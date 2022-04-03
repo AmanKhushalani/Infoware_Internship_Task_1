@@ -18,10 +18,10 @@ export default function App() {
 
     return <>
         <Routes>
-            <Route exact path='/' element={<Navigate replace to={"/dashboard"} />} />
-            <Route exact path='/dashboard' element={<Dashboard />} />
-            <Route exact path='/products' element={<Navigate replace to={"/dashboard"} />} />
-            <Route exact path='/products/:productname' element={<Products />} />
+            <Route exact path='/Infoware_Internship_Task_1/' element={<Navigate replace to={"/Infoware_Internship_Task_1/dashboard"} />} />
+            <Route exact path='/Infoware_Internship_Task_1/dashboard' element={<Dashboard />} />
+            <Route exact path='/Infoware_Internship_Task_1/products' element={<Navigate replace to={"/Infoware_Internship_Task_1/dashboard"} />} />
+            <Route exact path='/Infoware_Internship_Task_1/products/:productname' element={<Products />} />
             <Route path='*' element={<Error />} />
         </Routes>
 
